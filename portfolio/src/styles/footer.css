@@ -1,0 +1,63 @@
+.footer {
+    justify-content: space-between;  
+    align-items: center;            
+    padding: 35px 100px;           
+    position: relative;
+    background-color: #1B2328;
+}
+
+.cima {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin-bottom: 2rem;
+}
+
+.TituloFooter {
+    color: #6B9872;
+    font-size: 48px;
+    margin-bottom: 2rem;
+}
+
+.iphone {
+    width: 250px;
+    height: auto; 
+    margin-right: 20px;
+}
+
+.baixo {
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+    margin: 0;
+    width: 92.5%;
+    margin-bottom: 2rem;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;                       
+    padding: 0;
+}
+
+.nav-link li {
+    margin: 0 25px;
+}
+
+.redes {
+    display: flex;
+}
+
+.redes {
+    width: 45px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.direitos {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}

@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;  
+  align-items: center;            
+  padding: 35px 100px;           
+  position: relative;
+  background-color: #101418;
+}
+
+.nav-links {
+  display: flex;                  /* Usa flexbox para organizar os itens da lista */
+  justify-content: center;        /* Centraliza os itens da lista */
+  list-style-type: none;           /* Remove os pontos da lista */
+  margin: 0;                       /* Remove a margem */
+  padding: 0;                      /* Remove o padding */
+}
+
+.nav-links li {
+  margin: 0 25px;                  /* Espaçamento entre os itens da lista */
+}
+
+.header-nav-item {
+  text-decoration: none;
+  color: #6B9872;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.header-nav-item:hover {
+  color:#58c869;
+}
