@@ -7,7 +7,7 @@ export default function Footer() {
     <div className="cima">
         <img src="iPhone.png" alt="Imagem do iPhone" className="iphone"/>
         <div className="conteudo">
-            <h2 className="Titulo">Interessado no que <br /> podemos fazer <br /> para seu negócio?</h2>
+            <h2 className="TituloFooter">Interessado no que <br /> podemos fazer <br /> para seu negócio?</h2>
             <Link href="/contato">
                 <button className="contato">Entre em Contato</button>
             </Link>
