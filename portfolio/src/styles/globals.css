@@ -20,11 +20,26 @@ li {
 
 .Titulo {
     color: #6B9872;
-    font-size: 34px;
+    font-size: 40px;
+}
+
+.Texto {
+    color: white;
+    font-size: 24px;
 }
 
 .logo-img {
     max-width: 160px;        
+}
+
+.redes {
+    display: flex;
+}
+
+.redes {
+    width: 45px;
+    height: auto;
+    margin-left: 20px;
 }
 
 button {

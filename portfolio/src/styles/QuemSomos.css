@@ -1,0 +1,53 @@
+.QuemSomos {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15rem;
+}
+
+.TituloQuemSomos {
+    margin-bottom: 2rem;
+}
+
+.Eduardo {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.Gabriel {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 2rem;
+    margin-left: 20rem;
+}
+
+.FotoEduardo img, .FotoGabriel img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.NomeEduardo, .NomeGabriel {
+    color: #6B9872;
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.TextoNome {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes {
+    object-fit: contain;
+}
