@@ -1,0 +1,24 @@
+.SobreNos {
+    display: flex;
+    justify-content: center;
+}
+
+.TextoSobreNos {
+    color: white;
+    font-size: 24px;
+    margin-left: 15rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.macbook img {
+    width: 1050px;
+    height: auto;
+}
+
+.RedesSobreNos {
+    display: flex;
+    width: 45px;
+    height: auto;
+    margin-left: 14rem;
+}

@@ -4,7 +4,7 @@ export default function QuemSomos() {
     return (
         <div className="QuemSomos">
             <div className="TituloQuemSomos">
-                <h2 className="Titulo">Quem Somos</h2>
+                <h2 className="TituloQuemSomos">Quem Somos</h2>
             </div>
             <div className="Eduardo">
                 <div className="FotoEduardo">
@@ -14,7 +14,7 @@ export default function QuemSomos() {
                     <div className="NomeEduardo">
                         <h3>Eduardo Menegazzo Riboli</h3>
                     </div>
-                    <div className="Texto">
+                    <div>
                         <p className="TextoNome">
                             Olá, meu nome é Eduardo Menegazzo Riboli, tenho 19 anos, <br />
                             sou um estudante da Atitus - Passo Fundo, <br />
