@@ -1,0 +1,23 @@
+.inicio {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.titulo-inicio {
+    color: #6B9872;
+    font-size: 54px;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.texto-inicio {
+    color: white;
+    font-size: 34px;
+    margin-bottom: 3rem;
+}
+
+.iphone-inicio img {
+    width: 450px; /* Ajuste conforme necessário */
+    height: auto;
+}
