@@ -9,15 +9,6 @@ body {
     font-family: 'JejuGothic', sans-serif;
 }
 
-ul {
-    list-style-type: none; 
-    padding-left: 0; 
-}
-
-li {
-    list-style-type: none; 
-}
-
 .Distancia {
     margin-bottom: 4rem;
 }

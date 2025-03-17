@@ -3,9 +3,7 @@ import "../styles/QuemSomos.css";
 export default function QuemSomos() {
     return (
         <div className="QuemSomos">
-            <div className="TituloQuemSomos">
-                <h2 className="TituloQuemSomos">Quem Somos</h2>
-            </div>
+            <h2 className="TituloQuemSomos">Quem Somos</h2>
             <div className="Eduardo">
                 <div className="FotoEduardo">
                     <img src="Eduardo.jpg" alt="Foto de Eduardo Menegazzo Riboli" />

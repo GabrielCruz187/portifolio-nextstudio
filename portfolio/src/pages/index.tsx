@@ -2,6 +2,8 @@ import Inicio from "@/components/inicio";
 import QuemSomos from "@/components/QuemSomos";
 import SobreNos from "@/components/SobreNos";
 import Portfolio from "@/components/portfolio";
+import Feedback from "@/components/feedback";
+import Servicos from "@/components/servicos";
 
 export default function Home() {
     return (
@@ -17,6 +19,12 @@ export default function Home() {
             </div>
             <div className="Distancia">
                 <Portfolio />
+            </div>
+            <div className="Distancia">
+                <Feedback />
+            </div>
+            <div className="Distancia">
+                <Servicos />
             </div>
         </>
     )
