@@ -3,6 +3,12 @@
     justify-content: center;
 }
 
+.TituloSobreNos {
+    color: #6B9872;
+    font-size: 40px;
+    margin-left: 15rem;
+}
+
 .TextoSobreNos {
     color: white;
     font-size: 24px;

@@ -4,7 +4,7 @@ export default function SobreNos() {
     return (
         <div className="SobreNos">
             <div>
-                <h2 className="Titulo">Sobre Nós</h2>
+                <h2 className="TituloSobreNos">Sobre Nós</h2>
                 <p className="TextoSobreNos">Somos Eduardo e Gabriel, uma equipe especializada no desenvolvimento de websites, <br />
                     sistemas e aplicativos para empresas locais. Entendemos as necessidades <br />
                     do mercado e criamos soluções digitais sob medida para cada negócio. <br />
