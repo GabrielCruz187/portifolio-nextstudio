@@ -1,6 +1,55 @@
+.Feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .TituloFeedback {
     color: #6B9872;
     font-size: 40px;
     margin-bottom: 2rem;
     text-align: center;
+}
+
+.ContainerFeedback {
+    background-color: #6B9872;
+    width: 700px;
+    height: 250px;
+    text-align: center;
+    border-radius: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    padding: 2rem;
+}
+
+.TituloContainer {
+    display: flex;
+    align-items: center;
+}
+
+.TituloContainer img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+}
+
+.TituloContainer h3 {
+    margin-left: 1rem;
+    font-size: 26px;
+}
+
+.TituloContainer p {
+    margin-left: 1rem;
+    font-size: 16px;
+    margin-top: 6px;
+}
+
+.Depoimento p {
+    font-size: 20px;
+    margin-bottom: 1rem;
 }
