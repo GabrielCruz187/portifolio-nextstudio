@@ -7,25 +7,25 @@ import Servicos from "@/components/servicos";
 
 export default function Home() {
     return (
-        <>
-            <div className="Distancia">
+        <div>
+            <section id="inicio">
                 <Inicio />
-            </div>
-            <div className="Distancia">
+            </section>
+            <section id="quemSomos">
                 <QuemSomos />
-            </div>
-            <div className="Distancia">
+            </section>
+            <section id="sobreNos">
                 <SobreNos />
-            </div>
-            <div className="Distancia">
+            </section>
+            <section id="portfolio">
                 <Portfolio />
-            </div>
-            <div className="Distancia">
+            </section>
+            <section id="feedback">
                 <Feedback />
-            </div>
-            <div className="Distancia">
+            </section>
+            <section id="servicos">
                 <Servicos />
-            </div>
-        </>
-    )
+            </section>
+        </div>
+    );
 }

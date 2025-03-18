@@ -7,7 +7,7 @@ export default function Servicos() {
             <div className="NossosServicos">
                 <h2 className="TituloServicos">Nossos Serviços</h2>
                 <Link href="/contato">
-                    <button className="botao-servicos">Nossos serviços</button>
+                    <button className="botao-servicos">Entre em contato</button>
                 </Link>
             </div>
             <div>

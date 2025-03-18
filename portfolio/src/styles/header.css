@@ -8,15 +8,15 @@
 }
 
 .nav-links {
-  display: flex;                  /* Usa flexbox para organizar os itens da lista */
-  justify-content: center;        /* Centraliza os itens da lista */
-  list-style-type: none;           /* Remove os pontos da lista */
-  margin: 0;                       /* Remove a margem */
-  padding: 0;                      /* Remove o padding */
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-links li {
-  margin: 0 25px;                  /* Espaçamento entre os itens da lista */
+  margin: 0 25px;
 }
 
 .header-nav-item {
@@ -24,6 +24,7 @@
   color: #6B9872;
   font-size: 20px;
   transition: color 0.3s ease;
+  cursor: pointer;
 }
 
 .header-nav-item:hover {
