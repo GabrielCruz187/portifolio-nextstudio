@@ -9,6 +9,10 @@ body {
     font-family: 'JejuGothic', sans-serif;
 }
 
+textarea, input {
+    font-family: 'JejuGothic', sans-serif;
+}
+
 section {
     margin-bottom: 4rem;
 }

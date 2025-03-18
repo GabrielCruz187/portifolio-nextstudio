@@ -1,0 +1,151 @@
+.Contato {
+    display: flex;
+    justify-content: space-between;
+}
+
+.TituloContato {
+    color: #6B9872;
+    font-size: 40px;
+    margin-left: 7rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.Chamada, .Email, .Instagram, .Linkedin {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+    color: white;
+    font-size: 24px;
+    margin-left: 7rem;
+}
+
+.TextoContato {
+    margin-left: 1rem;
+}
+
+.IconeContato {
+    width: 50px;
+    height: auto;
+}
+
+.FormularioContato {
+    background-color: #1B2328;
+    text-align: center;
+    width: 800px;
+    height: 760px;
+    margin-top: 2rem;
+    margin-right: 6rem;
+    padding: 30px;
+    margin-bottom: 4rem;
+}
+
+.TituloForm {
+    color: #6B9872;
+    font-size: 40px;
+    margin-bottom: 2rem;
+}
+
+.FormularioContato form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem; 
+    justify-content: center;
+}
+
+.CampoFormulario {
+    width: 100%;
+    
+}
+
+.CampoFormulario label {
+    color: #6B9872;
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.CampoFormulario input, .CampoFormulario textarea {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.CampoFormulario textarea {
+    min-height: 150px;
+}
+
+.FormularioContato .CampoFormulario:nth-child(1),
+.FormularioContato .CampoFormulario:nth-child(2) {
+    width: calc(50% - 1rem);
+}
+
+.FormularioContato .CampoFormulario:nth-child(3),
+.FormularioContato .CampoFormulario:nth-child(4) {
+    width: calc(50% - 1rem);
+}
+
+.FormularioContato .CampoFormulario:nth-child(5),
+.FormularioContato .CampoFormulario:nth-child(6) {
+    width: calc(50% - 1rem);
+}
+
+.FormularioContato button {
+    text-align: center;
+    width: 300px;
+}
+
+.Dropdown {
+    position: relative;
+    background-color: #fff;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.Dropdown--open {
+    border-color: #007bff; /* Cor azul quando aberto */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Dropdown span {
+    display: block;
+    font-size: 14px;
+    color: #555;
+}
+
+.Dropdown ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    border-top: 6px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    margin-top: 0.2rem;
+}
+
+.Dropdown ul li {
+    padding: 10px;
+    font-size: 14px;
+    transition: background 0.2s ease-in-out;
+}
+
+.Dropdown ul li:hover {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
