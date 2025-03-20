@@ -127,15 +127,15 @@
     .Eduardo {
         display: block;
         align-items: center;
-        gap: 50px;
+        margin-bottom: 4rem;
     }
     
     .Gabriel {
-        display: block;
+        display: flex;
+        flex-direction: column-reverse;
         align-items: center;
-        gap: 50px;
-        margin-bottom: 2rem;
-        margin-left: 0rem;
+        gap: 20px;
+        margin-left: 0;
     }
     
     .FotoEduardo img, .FotoGabriel img {
@@ -158,13 +158,6 @@
     }
     
     .redes-sociais {
-        display: flex;
         gap: 50px;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .redes {
-        object-fit: contain;
     }
 }

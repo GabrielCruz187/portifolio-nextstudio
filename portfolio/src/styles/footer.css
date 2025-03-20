@@ -46,8 +46,37 @@
     margin: 0 25px;
 }
 
+.redesFooter {
+    display: flex;
+}
+
 .direitos {
     text-align: center;
     font-size: 18px;
     color: white;
+}
+
+@media (max-width: 834px) {
+    .baixo {
+        display: flex;
+        align-items: center;    
+        justify-content:space-between;
+        margin: 0;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    
+    .nav-link {
+        display: none;
+    }
+    
+    .direitos {
+        text-align: center;
+        font-size: 18px;
+        color: white;
+    }
+
+    .redesFooter {
+        gap: 40px;
+    }
 }

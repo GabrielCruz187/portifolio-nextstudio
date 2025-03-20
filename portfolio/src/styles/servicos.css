@@ -73,8 +73,8 @@
 @media (max-width: 834px) {
     .TituloServicos {
         color: #6B9872;
-        font-size: 40px;
-        margin-left: 1rem;
+        font-size: 30px;
+        margin-left: 2rem;
     }
     
     .NossosServicos {
@@ -84,17 +84,19 @@
     }
     
     .botao-servicos {
-        margin-right: 1rem;
+        margin-right: 2rem;
     }
 
     .TextoServicos {
         color: white;
-        font-size: 24px;
+        font-size: 20px;
         margin-bottom: 3rem;
-        margin-left: 1rem;
+        margin-left: 2rem;
     }
 
     .IconesServicos {
-        display: none;
+        width: 110px;
+        height: 120px;
+        margin-right: 2rem;
     }
 }

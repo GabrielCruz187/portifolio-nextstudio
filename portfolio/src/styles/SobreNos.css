@@ -37,17 +37,11 @@
     }
     
     .TituloSobreNos {
-        color: #6B9872;
-        font-size: 40px;
         margin-left: 6rem;
     }
     
     .TextoSobreNos {
-        color: white;
-        font-size: 24px;
         margin-left: 6rem;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
     }
     
     .macbook img {
@@ -57,5 +51,31 @@
 
     .RedesSobreNos {
         margin-left: 5rem;
+    }
+}
+
+@media (max-width: 834px) {
+    .SobreNos {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .TituloSobreNos {
+        margin-left: 2rem;
+    }
+    
+    .TextoSobreNos {
+        margin-left: 2rem;
+    }
+    
+    .macbook img {
+        margin-top: 14rem;
+        width: 400px;
+    }
+
+    .RedesSobreNos {
+        margin-left: 2rem;
+        gap: 50px;
+        width: 50px;
     }
 }

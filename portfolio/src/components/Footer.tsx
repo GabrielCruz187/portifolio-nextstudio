@@ -86,7 +86,7 @@ return (
         </ul>
         </nav>
 
-        <div className="redes">
+        <div className="redesFooter">
         <img src="instagram.png" alt="Logo do Instagram" className="redes" />
         <img src="linkedin.png" alt="Logo do LinkedIn" className="redes" />
         </div>

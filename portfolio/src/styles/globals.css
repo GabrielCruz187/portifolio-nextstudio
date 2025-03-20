@@ -43,3 +43,11 @@ button {
 button:hover {
     background-color: #083F22;
 }
+
+@media (max-width: 834px) {
+    .redes {
+        width: 50px;
+        margin-left: 0px;
+        gap: 40px;
+    }
+}
