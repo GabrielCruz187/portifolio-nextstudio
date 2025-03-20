@@ -1,8 +1,9 @@
+/* Estilos do Header */
 .header {
   display: flex;
-  justify-content: space-between;  
-  align-items: center;            
-  padding: 35px 100px;           
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
   position: relative;
   background-color: #101418;
 }
@@ -21,12 +22,103 @@
 
 .header-nav-item {
   text-decoration: none;
-  color: #6B9872;
+  color: #6b9872;
   font-size: 20px;
   transition: color 0.3s ease;
   cursor: pointer;
 }
 
 .header-nav-item:hover {
-  color:#58c869;
+  color: #58c869;
+}
+
+/* Estilos para o menu hambúrguer */
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 25px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.menu-line {
+  height: 4px;
+  width: 100%;
+  background-color: #6b9872;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav.open .nav-links {
+  display: block;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 20px;  /* Ajustado o espaçamento entre os itens */
+}
+
+.header-nav-item {
+  text-decoration: none;
+  color: #6b9872;
+  font-size: 22px;  /* Aumentado o tamanho da fonte */
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.header-nav-item:hover {
+  color: #58c869;
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+  .nav {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    background-color: #101418;
+    height: auto;
+    max-height: 300px;
+    overflow-y: auto;
+    flex-direction: column;
+    justify-content: center;  /* Alinha os itens no centro verticalmente */
+    align-items: center;  /* Alinha os itens no centro horizontalmente */
+    display: none;
+  }
+
+  .nav.open {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: flex;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;  /* Organiza os itens em coluna */
+    align-items: center;  /* Alinha os itens no centro */
+    padding: 0;
+  }
+
+  .nav-links li {
+    margin: 20px 0;  /* Aumentado o espaçamento entre os itens */
+  }
+
+  .header-nav-item {
+    font-size: 24px;  /* Aumentado o tamanho da fonte para dispositivos móveis */
+  }
+
+  .contato {
+    font-size: 24px;  /* Aumentando o tamanho da fonte do botão de contato */
+  }
 }

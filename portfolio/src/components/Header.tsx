@@ -1,9 +1,11 @@
+import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { Link as ScrollLink } from "react-scroll";
 import "../styles/header.css";
 
 export default function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const router = useRouter();
 
   const handleNavigation = (id: string) => {
@@ -22,6 +24,7 @@ export default function Header() {
         }, 500);
       });
     }
+    setIsMenuOpen(false);  // Fecha o menu ao clicar no item
   };
 
   return (
@@ -29,14 +32,21 @@ export default function Header() {
       <Link href="/" passHref>
         <img src="/logo.png" alt="Minha Software House" className="logo-img" />
       </Link>
-      <nav>
+
+      <div className="menu-icon" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+        <div className="menu-line"></div>
+        <div className="menu-line"></div>
+        <div className="menu-line"></div>
+      </div>
+
+      <nav className={`nav ${isMenuOpen ? "open" : ""}`}>
         <ul className="nav-links">
           <li>
-            <ScrollLink   
-              to="SobreNos" 
-              smooth={true} 
+            <ScrollLink
+              to="SobreNos"
+              smooth={true}
               duration={500}
-              offset={-80} 
+              offset={-80}
               onClick={() => handleNavigation("SobreNos")}
               className="header-nav-item"
             >
@@ -44,9 +54,9 @@ export default function Header() {
             </ScrollLink>
           </li>
           <li>
-            <ScrollLink 
-              to="portfolio" 
-              smooth={true} 
+            <ScrollLink
+              to="portfolio"
+              smooth={true}
               duration={500}
               offset={-60}
               onClick={() => handleNavigation("portfolio")}
@@ -56,9 +66,9 @@ export default function Header() {
             </ScrollLink>
           </li>
           <li>
-            <ScrollLink 
-              to="servicos" 
-              smooth={true} 
+            <ScrollLink
+              to="servicos"
+              smooth={true}
               duration={500}
               offset={-50}
               onClick={() => handleNavigation("servicos")}
@@ -67,11 +77,13 @@ export default function Header() {
               Serviços
             </ScrollLink>
           </li>
+          <li>
+            <Link href="/contato">
+              <button className="contato" onClick={() => setIsMenuOpen(false)}>Entre em Contato</button>
+            </Link>
+          </li>
         </ul>
       </nav>
-      <Link href="/contato">
-        <button className="contato">Entre em Contato</button>
-      </Link>
     </header>
   );
 }

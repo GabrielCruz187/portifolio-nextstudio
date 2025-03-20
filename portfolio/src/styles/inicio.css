@@ -1,14 +1,14 @@
 .inicio {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 250px;
 }
 
 .titulo-inicio {
     color: #6B9872;
     font-size: 54px;
     margin-top: 4rem;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 .texto-inicio {
@@ -18,6 +18,91 @@
 }
 
 .iphone-inicio img {
-    width: 450px; /* Ajuste conforme necessário */
+    width: 450px;
     height: auto;
+}
+
+@media (max-width: 1540px) {
+    .inicio {
+        margin-left: 4rem;
+        gap: 150px;
+    }
+
+    .titulo-inicio {
+        margin-bottom: 5rem;
+    }
+
+    .iphone-inicio img {
+        width: 400px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .titulo-inicio {
+        margin-left: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .texto-inicio {
+        margin-left: 1.5rem;
+    }
+
+    .botao-servicos {
+        margin-left: 1.5rem;
+    }
+}
+
+@media (max-width: 1158px) { 
+    .titulo-inicio {
+        font-size: 44px;
+    }
+    
+    .texto-inicio {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 834px) {
+    .inicio {
+        gap: 0px;
+    }
+
+    .titulo-inicio {
+        font-size: 34px;
+    }
+    
+    .texto-inicio {
+        color: white;
+        font-size: 25px;
+        margin-bottom: 3rem;
+    }
+
+    .iphone-inicio img {
+        width: 350px;
+    }
+
+    .botao-servicos {
+        display: flex;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 440px) {
+    .inicio {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .titulo-inicio {
+        margin-left: 0rem;
+    }
+    
+    .texto-inicio {
+        margin-left: 0rem;
+    }
+    
+    .iphone-inicio img {
+    display: none;
+    }
 }
