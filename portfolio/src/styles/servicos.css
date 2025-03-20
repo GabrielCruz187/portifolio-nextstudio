@@ -32,3 +32,69 @@
     height: auto;
     margin-right: 15rem;
 }
+
+@media (max-width: 1280px) {
+    .TituloServicos {
+        color: #6B9872;
+        font-size: 40px;
+        margin-left: 6rem;
+    }
+    
+    .NossosServicos {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+    
+    .botao-servicos {
+        margin-right: 6rem;
+    }
+    
+    .TextoServicos {
+        color: white;
+        font-size: 24px;
+        margin-bottom: 3rem;
+        margin-left: 6rem;
+    }
+    
+    .Website, .Sistema, .Aplicativo {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3rem;
+    }
+    
+    .IconesServicos {
+        width: 250px;
+        height: auto;
+        margin-right: 6rem;
+    }
+}
+
+@media (max-width: 834px) {
+    .TituloServicos {
+        color: #6B9872;
+        font-size: 40px;
+        margin-left: 1rem;
+    }
+    
+    .NossosServicos {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+    
+    .botao-servicos {
+        margin-right: 1rem;
+    }
+
+    .TextoServicos {
+        color: white;
+        font-size: 24px;
+        margin-bottom: 3rem;
+        margin-left: 1rem;
+    }
+
+    .IconesServicos {
+        display: none;
+    }
+}

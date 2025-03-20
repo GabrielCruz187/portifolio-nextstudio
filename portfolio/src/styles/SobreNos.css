@@ -28,3 +28,34 @@
     height: auto;
     margin-left: 14rem;
 }
+
+
+@media (max-width: 1280px) {
+    .SobreNos {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .TituloSobreNos {
+        color: #6B9872;
+        font-size: 40px;
+        margin-left: 6rem;
+    }
+    
+    .TextoSobreNos {
+        color: white;
+        font-size: 24px;
+        margin-left: 6rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    
+    .macbook img {
+        margin-top: 7rem;
+        width: 700px;
+    }
+
+    .RedesSobreNos {
+        margin-left: 5rem;
+    }
+}

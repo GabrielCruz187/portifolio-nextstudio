@@ -55,3 +55,116 @@
 .redes {
     object-fit: contain;
 }
+
+@media (max-width: 1540px) {
+    .QuemSomos {
+        margin-left: 6rem;
+    }
+    
+    .Eduardo {
+        gap: 50px;
+    }
+    
+    .Gabriel {
+        gap: 60px;
+        margin-left: 23rem;
+    }
+    
+    .FotoEduardo img, .FotoGabriel img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .TituloQuemSomos {
+        margin-bottom: 4rem;
+    }
+    
+    .Eduardo {
+        gap: 50px;
+        margin-bottom: 2rem;
+    }
+    
+    .Gabriel {
+        gap: 50px;
+        margin-bottom: 2rem;
+        margin-left: 11rem;
+    }
+    
+    .FotoEduardo img, .FotoGabriel img {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .NomeEduardo, .NomeGabriel {
+        color: #6B9872;
+        font-size: 38px;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+    .TextoNome {
+        text-align: center;
+        margin-bottom: 2rem;
+        color: white;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 834px) {
+    .QuemSomos {
+        text-align: center;
+        margin-left: 0rem;
+    }
+    
+    .TituloQuemSomos {
+        color: #6B9872;
+        font-size: 30px;
+        margin-bottom: 2rem;
+    }
+    
+    .Eduardo {
+        display: block;
+        align-items: center;
+        gap: 50px;
+    }
+    
+    .Gabriel {
+        display: block;
+        align-items: center;
+        gap: 50px;
+        margin-bottom: 2rem;
+        margin-left: 0rem;
+    }
+    
+    .FotoEduardo img, .FotoGabriel img {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .NomeEduardo, .NomeGabriel {
+        color: #6B9872;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+    .TextoNome {
+        text-align: center;
+        margin-bottom: 2rem;
+        color: white;
+        font-size: 24px;
+    }
+    
+    .redes-sociais {
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .redes {
+        object-fit: contain;
+    }
+}
