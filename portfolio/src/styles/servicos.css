@@ -1,7 +1,7 @@
 .TituloServicos {
     color: #6B9872;
     font-size: 40px;
-    margin-left: 15rem;
+    margin-left: 11rem;
 }
 
 .NossosServicos {
@@ -10,15 +10,31 @@
     margin-bottom: 1rem;
 }
 
-.botao-servicos {
-    margin-right: 15rem;
+.BotaoServico {
+    background-color: #094D29;      
+    color: white;                   
+    padding: 15px 35px;              
+    border: none;                   
+    border-radius: 5px;           
+    font-size: 16px;            
+    cursor: pointer;         
+    transition: background-color 0.3s;
+    white-space: nowrap;
+    margin-right: 11rem;
 }
 
 .TextoServicos {
     color: white;
     font-size: 24px;
     margin-bottom: 3rem;
-    margin-left: 15rem;
+    margin-left: 11rem;
+}
+
+.ConteudoServico {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 3rem;
+    margin-left: 11rem;
 }
 
 .Website, .Sistema, .Aplicativo {
@@ -30,13 +46,11 @@
 .IconesServicos {
     width: 250px;
     height: auto;
-    margin-right: 15rem;
+    margin-right: 11rem;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1540px) {
     .TituloServicos {
-        color: #6B9872;
-        font-size: 40px;
         margin-left: 6rem;
     }
     
@@ -46,11 +60,18 @@
         margin-bottom: 1rem;
     }
     
-    .botao-servicos {
+    .BotaoServico {
         margin-right: 6rem;
     }
     
     .TextoServicos {
+        color: white;
+        font-size: 24px;
+        margin-bottom: 3rem;
+        margin-left: 6rem;
+    }
+
+    .ConteudoServico {
         color: white;
         font-size: 24px;
         margin-bottom: 3rem;
@@ -70,9 +91,52 @@
     }
 }
 
-@media (max-width: 834px) {
+@media (max-width: 1280px) {
     .TituloServicos {
         color: #6B9872;
+        font-size: 40px;
+        margin-left: 6rem;
+    }
+    
+    .NossosServicos {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+    
+    .BotaoServico {
+        margin-right: 6rem;
+    }
+    
+    .TextoServicos {
+        color: white;
+        font-size: 24px;
+        margin-bottom: 3rem;
+        margin-left: 6rem;
+    }
+
+    .ConteudoServico {
+        color: white;
+        font-size: 24px;
+        margin-bottom: 3rem;
+        margin-left: 6rem;
+    }
+    
+    .Website, .Sistema, .Aplicativo {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3rem;
+    }
+    
+    .IconesServicos {
+        width: 250px;
+        height: auto;
+        margin-right: 6rem;
+    }
+}
+
+@media (max-width: 835px) {
+    .TituloServicos {
         font-size: 30px;
         margin-left: 2rem;
     }
@@ -83,7 +147,7 @@
         margin-bottom: 1rem;
     }
     
-    .botao-servicos {
+    .BotaoServico {
         margin-right: 2rem;
     }
 
@@ -94,9 +158,60 @@
         margin-left: 2rem;
     }
 
+    .ConteudoServico {
+        color: white;
+        font-size: 20px;
+        margin-bottom: 3rem;
+        margin-left: 2rem;
+    }
+
     .IconesServicos {
         width: 110px;
         height: 120px;
         margin-right: 2rem;
+    }
+}
+
+@media (max-width: 510px) {
+    .TituloServicos {
+        text-align: center;
+        font-size: 26px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 1rem;
+    }
+    
+    .NossosServicos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    
+    .BotaoServico {
+        margin-right: 0rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .TextoServicos {
+        text-align: center;
+        margin-left: 0rem;
+    }
+
+    .ConteudoServico {
+        margin-bottom: 0rem;
+    }
+
+    .IconesServicos {
+        width: 110px;
+        height: 120px;
+        margin-right: 2rem;
+    }
+
+    .IconesServicos {
+        display: none;
     }
 }

@@ -5,7 +5,7 @@ const catalogo = [
         titulo: "Catálogo de Carros",
         descricao: "Sistema responsivo para loja de carros com painel administrativo.",
         imagem: "/LojaDeCarros.png",
-        link: "https://catalogo-carros.com",
+        link: "https://www.ala-automoveis.com/",
     },
 ];
 
@@ -29,7 +29,7 @@ export default function Portfolio() {
                 </p>
             </div>
 
-            <div className="Container">
+            <div className="ContainerPortfolio">
                 <div className="Catalogo">
                     {catalogo.map((projeto, index) => (
                         <a 

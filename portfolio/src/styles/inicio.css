@@ -22,6 +22,18 @@
     height: auto;
 }
 
+.BotaoInicio {
+    background-color: #094D29;      
+    color: white;                   
+    padding: 15px 35px;              
+    border: none;                   
+    border-radius: 5px;           
+    font-size: 16px;            
+    cursor: pointer;         
+    transition: background-color 0.3s;
+    white-space: nowrap;
+}
+
 @media (max-width: 1540px) {
     .inicio {
         margin-left: 4rem;
@@ -47,7 +59,7 @@
         margin-left: 1.5rem;
     }
 
-    .botao-servicos {
+    .BotaoInicio {
         margin-left: 1.5rem;
     }
 }
@@ -62,9 +74,10 @@
     }
 }
 
-@media (max-width: 834px) {
+@media (max-width: 835px) {
     .inicio {
         gap: 0px;
+        margin-left: 0rem;
     }
 
     .titulo-inicio {
@@ -81,28 +94,44 @@
         width: 350px;
     }
 
-    .botao-servicos {
+    .BotaoInicio {
         display: flex;
         font-size: 18px;
     }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 510px) {
     .inicio {
         display: flex;
         text-align: center;
-        justify-content: center;
+    }
+
+    .conteudo-inicio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
     
     .titulo-inicio {
-        margin-left: 0rem;
+        margin-top: 2rem;
+        font-size: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     
     .texto-inicio {
-        margin-left: 0rem;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 20px;
     }
     
     .iphone-inicio img {
-    display: none;
+        display: none;
+        width: 200px;
+    }
+
+    .BotaoInicio {
+        margin-left: 0rem;
     }
 }

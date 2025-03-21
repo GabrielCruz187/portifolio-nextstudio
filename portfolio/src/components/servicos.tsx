@@ -7,7 +7,7 @@ export default function Servicos() {
             <div className="NossosServicos">
                 <h2 className="TituloServicos">Nossos Serviços</h2>
                 <Link href="/contato">
-                    <button className="botao-servicos">Entre em contato</button>
+                    <button className="BotaoServico">Entre em contato</button>
                 </Link>
             </div>
             <div>
@@ -16,7 +16,7 @@ export default function Servicos() {
             <div className="Website">
                 <div className="ConteudoWebsite">
                     <h2 className="TituloServicos">Websites e Presença Online</h2>
-                    <ul className="TextoServicos">
+                    <ul className="ConteudoServico">
                         <li>Sites institucionais (empresas, lojas, profissionais autônomos)</li>
                         <li>Landing pages (para campanhas de marketing e vendas)</li>
                         <li>E-commerce (lojas virtuais completas)</li>
@@ -28,7 +28,7 @@ export default function Servicos() {
             <div className="Sistema">
                 <div className="ConteudoSistema">
                     <h2 className="TituloServicos">Sistemas Web e Automação</h2>
-                    <ul className="TextoServicos">
+                    <ul className="ConteudoServico">
                         <li>Painéis administrativos (gestão de clientes, produtos, pedidos, etc.)</li>
                         <li>Sistemas de agendamento (para clínicas, salões, academias)</li>
                     </ul>
@@ -38,7 +38,7 @@ export default function Servicos() {
             <div className="Aplicativo">
                 <div className="ConteudoAplicativo">
                     <h2 className="TituloServicos">Aplicativos Mobile</h2>
-                    <ul className="TextoServicos">
+                    <ul className="ConteudoServico">
                         <li>Aplicativos empresariais (para controle interno ou atendimento a clientes)</li>
                         <li>Apps de delivery e pedidos (restaurantes, mercados)</li>
                     </ul>

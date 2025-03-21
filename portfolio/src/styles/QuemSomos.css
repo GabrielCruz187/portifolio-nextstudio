@@ -1,7 +1,7 @@
 .QuemSomos {
     display: flex;
     flex-direction: column;
-    margin-left: 15rem;
+    margin-left: 11rem;
 }
 
 .TituloQuemSomos {
@@ -21,7 +21,7 @@
     align-items: center;
     gap: 100px;
     margin-bottom: 2rem;
-    margin-left: 20rem;
+    margin-left: 28rem;
 }
 
 .FotoEduardo img, .FotoGabriel img {
@@ -67,7 +67,7 @@
     
     .Gabriel {
         gap: 60px;
-        margin-left: 23rem;
+        margin-left: 22rem;
     }
     
     .FotoEduardo img, .FotoGabriel img {
@@ -112,7 +112,7 @@
     }
 }
 
-@media (max-width: 834px) {
+@media (max-width: 835px) {
     .QuemSomos {
         text-align: center;
         margin-left: 0rem;
@@ -159,5 +159,21 @@
     
     .redes-sociais {
         gap: 50px;
+    }
+}
+
+@media (max-width: 510px) {
+    .NomeEduardo, .NomeGabriel {
+        font-size: 30px;
+    }
+
+    .FotoEduardo, .FotoGabriel {
+        margin-bottom: 2rem;
+    }
+
+    .TextoNome {
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }

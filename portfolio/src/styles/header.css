@@ -66,74 +66,101 @@
   color: #58c869;
 }
 
+.ContatoHeader button {
+  background-color: #094D29;      
+  color: white;
+  padding: 15px 35px;              
+  border: none;                   
+  border-radius: 5px;
+  font-size: 16px;            
+  cursor: pointer;         
+  transition: background-color 0.3s;
+  white-space: nowrap;
+}
+
+.ContatoHeader button:hover {
+  background-color: #083F22;
+}
+
 .contatoMenu {
   display: none;
+}
+
+.nav.open .contatoMenu {
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (max-width: 920px) {
-.header {
-  align-items: center;
-  padding: 20px 30px;
-}
+  .header {
+    align-items: center;
+    padding: 20px 30px;
+  }
 
-.nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 90px;
-  left: 0;
-  right: 0;
-  background-color: #101418;
-  flex-direction: column;
-  padding: 20px 0;
-  opacity: 0;
-  overflow: hidden;
-  transition: max-height 0.4s ease, opacity 0.4s ease;
-}
+  .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    right: 0;
+    background-color: #101418;
+    flex-direction: column;
+    padding: 20px 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, opacity 0.4s ease;
+  }
 
-.nav.open {
-  max-height: 400px;
-  opacity: 1;
-}
+  .nav.open {
+    max-height: 400px;
+    opacity: 1;
+  }
 
-.menu-icon {
-  display: flex;
-}
+  .menu-icon {
+    display: flex;
+  }
 
-.nav-links {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
 
-.nav-links li {
-  margin: 15px 0;
-  margin-bottom: 3rem;
-}
+  .nav-links li {
+    margin: 15px 0;
+    margin-bottom: 3rem;
+  }
 
-.header-nav-item {
-  text-decoration: none;
-  color: #6b9872;
-  font-size: 24px;
-  transition: color 0.3s ease;
-  cursor: pointer;
-}
+  .header-nav-item {
+    text-decoration: none;
+    color: #6b9872;
+    font-size: 24px;
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
 
-.header-nav-item:hover {
-  color: #58c869;
-}
+  .header-nav-item:hover {
+    color: #58c869;
+  }
 
-.contatoMenu {
-  display: flex;
-  text-align: center;
-  width: auto;
-}
+  .contatoMenu button {
+    background-color: #094D29;      
+    color: white;                   
+    padding: 15px 35px;              
+    border: none;                   
+    border-radius: 5px;           
+    font-size: 16px;            
+    cursor: pointer;         
+    transition: background-color 0.3s;
+    white-space: nowrap;
+  }
 
-.ContatoHeader {
-  display: none;
-}
+  .ContatoHeader {
+    display: none;
+  }
 }

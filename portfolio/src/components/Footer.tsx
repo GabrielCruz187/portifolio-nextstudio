@@ -33,7 +33,7 @@ return (
             Interessado no que <br /> podemos fazer <br /> para seu negócio?
         </h2>
         <Link href="/contato">
-            <button className="contato">Entre em Contato</button>
+            <button className="BotaoFooter">Entre em Contato</button>
         </Link>
         </div>
     </div>
@@ -87,8 +87,8 @@ return (
         </nav>
 
         <div className="redesFooter">
-        <img src="instagram.png" alt="Logo do Instagram" className="redes" />
-        <img src="linkedin.png" alt="Logo do LinkedIn" className="redes" />
+            <img src="instagram.png" alt="Logo do Instagram" className="redes" />
+            <img src="linkedin.png" alt="Logo do LinkedIn" className="redes" />
         </div>
     </div>
 
