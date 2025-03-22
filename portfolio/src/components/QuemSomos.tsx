@@ -14,9 +14,13 @@ export default function QuemSomos() {
                     </div>
                     <div>
                         <p className="TextoNome">
-                            Olá, meu nome é Eduardo Menegazzo Riboli, tenho 19 anos, <br />
-                            sou um estudante da Atitus - Passo Fundo, <br />
-                            cursando atualmente o 3º semestre de Ciências da Computação.
+                            Olá, meu nome é Eduardo Menegazzo Riboli, <br />
+                            sou um desenvolvedor Front-End. Tenho 19 anos <br />
+                            e sou estudante de Ciências da Computação na Atitus<br />
+                            Passo Fundo. Sou especialista em diversas tecnologias <br />
+                            como JavaScript, TypeScript, React e Next, oque me permite <br />
+                            desenvolver interfaces inovadoras e de alta performance.
+                            
                         </p>
                     </div>
                     <div className="redes-sociais">
@@ -39,8 +43,13 @@ export default function QuemSomos() {
                     </div>
                     <div className="Texto">
                         <p className="TextoNome">
-                            Olá, meu nome é Gabriel Cruz, tenho 20 anos <br />
-                            e estou cursando Análise e desenvolvimento de sistemas.
+                        Olá, meu nome é Gabriel Cruz, sou um desenvolvedor full stack, <br /> 
+                        tenho 21 anos, atualmente estou cursando Análise e <br /> 
+                        desenvolvimento de sistemas. Ao longo da minha jornada, <br /> 
+                        adquiri habilidades em diversas tecnologias como Node.js, <br /> 
+                        MongoDB, TypeScript, Next.js, TailwindCSS, SQL e JavaScript, <br /> 
+                        o que me permite construir aplicações robustas e escaláveis <br /> 
+                        tanto no front-end quanto no back-end.
                         </p>
                     </div>
                     <div className="redes-sociais">

@@ -74,6 +74,7 @@
 @media (max-width: 510px) {
     .TituloPortfolio {
         font-size: 30px;
+        margin-bottom: 1rem;
     }
 
     .TextoPortfolio {
@@ -81,6 +82,10 @@
         margin-left: 20px;
         margin-right: 20px;
         margin-bottom: 2rem;
+    }
+
+    .TituloContainer p {
+        margin-bottom: 1rem;
     }
 
     .projeto-imagem {

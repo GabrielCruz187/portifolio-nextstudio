@@ -77,7 +77,7 @@
 @media (max-width: 835px) {
     .inicio {
         gap: 0px;
-        margin-left: 0rem;
+        margin-left: 20px;
     }
 
     .titulo-inicio {

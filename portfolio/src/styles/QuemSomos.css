@@ -63,11 +63,12 @@
     
     .Eduardo {
         gap: 50px;
+        margin-bottom: 4rem;
     }
     
     .Gabriel {
         gap: 60px;
-        margin-left: 22rem;
+        margin-left: 16rem;
     }
     
     .FotoEduardo img, .FotoGabriel img {
@@ -89,7 +90,7 @@
     .Gabriel {
         gap: 50px;
         margin-bottom: 2rem;
-        margin-left: 11rem;
+        margin-left: 7rem;
     }
     
     .FotoEduardo img, .FotoGabriel img {
@@ -164,7 +165,9 @@
 
 @media (max-width: 510px) {
     .NomeEduardo, .NomeGabriel {
-        font-size: 30px;
+        font-size: 23px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .FotoEduardo, .FotoGabriel {
@@ -172,7 +175,7 @@
     }
 
     .TextoNome {
-        font-size: 20px;
+        font-size: 22px;
         margin-left: 20px;
         margin-right: 20px;
     }

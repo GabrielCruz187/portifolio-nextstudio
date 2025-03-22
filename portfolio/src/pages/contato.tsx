@@ -24,35 +24,43 @@ export default function Contato() {
     return (
         <div className="Contato">
             <div className="ConteudoContato">
-                <div className="TituloContato">
-                    <h3>
-                        Vamos construir algo <br />
-                        incrível juntos! <br />
-                        Fale conosco e dê o próximo <br />
-                        passo no digital.
-                    </h3>
-                </div>
-                <div className="Chamada">
-                    <img src="phone-call.png" alt="Ícone de chamada" className="IconeContato" />
-                    <p className="TextoContato">(54) 99706-1550</p>
-                </div>
-                <div className="Email">
-                    <img src="email.png" alt="Ícone de Email" className="IconeContato" />
-                    <p className="TextoContato">nextcodestudios@gmail.com</p>
-                </div>
-                <div className="Instagram">
-                    <a href="https://www.instagram.com/eduardo_menegazzo_/" target="_blank" rel="noopener noreferrer">
-                        <img src="/instagram.png" alt="Instagram" className="IconeContato" />
-                    </a>
-                    <p className="TextoContato">NextCode Studios</p>
-                </div>
-                <div className="Linkedin">
-                    <a href="https://www.linkedin.com/in/eduardo-menegazzo-riboli-16265630a/" target="_blank" rel="noopener noreferrer">
-                        <img src="/linkedin.png" alt="LinkedIn" className="IconeContato" />
-                    </a>
-                    <p className="TextoContato">NextCode Studios</p>
-                </div>
+        <div className="TituloContato">
+            <h3>
+                Vamos construir algo <br />
+                incrível juntos! <br />
+                Fale conosco e dê o próximo <br />
+                passo no digital.
+            </h3>
+        </div>
+
+        {/* Agrupando Chamada e Email */}
+        <div className="ContatoInfo">
+            <div className="Chamada">
+                <img src="phone-call.png" alt="Ícone de chamada" className="IconeContato" />
+                <p className="TextoContato">(54) 99706-1550</p>
             </div>
+            <div className="Email">
+                <img src="email.png" alt="Ícone de Email" className="IconeContato" />
+                <p className="TextoContato">nextcodestudios@gmail.com</p>
+            </div>
+        </div>
+
+        {/* Agrupando Instagram e LinkedIn */}
+        <div className="RedesSociais">
+            <div className="Instagram">
+                <a href="https://www.instagram.com/eduardo_menegazzo_/" target="_blank" rel="noopener noreferrer">
+                    <img src="/instagram.png" alt="Instagram" className="IconeContato" />
+                </a>
+                <p className="TextoContato">NextCode Studios</p>
+            </div>
+            <div className="Linkedin">
+                <a href="https://www.linkedin.com/in/eduardo-menegazzo-riboli-16265630a/" target="_blank" rel="noopener noreferrer">
+                    <img src="/linkedin.png" alt="LinkedIn" className="IconeContato" />
+                </a>
+                <p className="TextoContato">NextCode Studios</p>
+            </div>
+        </div>
+    </div>
 
             <div className="Formulario">
                 <div className="FormularioContato">
@@ -164,7 +172,7 @@ export default function Contato() {
                                 placeholder="Digite a sua mensagem para nós"
                             />
                         </div>
-                        <button type="submit">Enviar</button>
+                        <button type="submit" className="BotaoContato">Enviar</button>
                     </form>
                 </div>
             </div>
