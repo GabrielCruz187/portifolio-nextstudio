@@ -39,8 +39,10 @@ export default function QuemSomos() {
                     </div>
                     <div className="Texto">
                         <p className="TextoNome">
-                            Olá, meu nome é Gabriel Cruz, tenho 20 anos <br />
-                            e estou cursando Análise e desenvolvimento de sistemas.
+                        Olá! Meu nome é Gabriel Cruz, sou um desenvolvedor full stack, tenho 21 anos, atualmente estou cursando Análise e Desenvolvimento de Sistemas.<br />
+                        Ao longo da minha jornada, adquiri habilidades em diversas tecnologias como Node.js, MongoDB, TypeScript, Next.js, TailwindCSS, SQL e JavaScript, o que me permite construir aplicações robustas e escaláveis tanto no front-end quanto no back-end. <br />
+                        
+                            
                         </p>
                     </div>
                     <div className="redes-sociais">

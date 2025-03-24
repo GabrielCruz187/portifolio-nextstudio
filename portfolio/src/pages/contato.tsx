@@ -24,7 +24,7 @@ export default function Contato() {
     return (
         <div className="Contato">
             <div className="ConteudoContato">
-                <div className="TituloContato">
+            <div className="TituloContato">
                     <h3>
                         Vamos construir algo <br />
                         incrível juntos! <br />
