@@ -1,5 +1,5 @@
 import Link from "next/link";
-import "../styles/servicos.css";
+
 
 export default function Servicos() {
     return (

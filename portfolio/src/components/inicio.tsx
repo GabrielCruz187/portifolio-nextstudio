@@ -1,5 +1,5 @@
 import { Link as ScrollLink } from "react-scroll";
-import "../styles/inicio.css";
+
 
 export default function Inicio() {
     return (

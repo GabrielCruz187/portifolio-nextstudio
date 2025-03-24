@@ -3,9 +3,15 @@ import Layout from '@/components/Layout';
 import '@/styles/globals.css'; 
 import { useRouter } from 'next/router';
 import Head from 'next/head';
-import '../styles/QuemSomos.css';  // Importando CSS global
-import '../styles/SobreNos.css';   // Importando CSS global
-import '../styles/contato.css';    // Importando CSS global
+import '../styles/feedback.css';  // Global CSS
+import '../styles/footer.css';    // Global CSS
+import '../styles/header.css';    // Global CSS
+import '../styles/QuemSomos.css'; // Global CSS
+import '../styles/SobreNos.css';  // Global CSS
+import '../styles/contato.css';   // Global CSS  // Importando CSS global
+import "../styles/inicio.css";
+import "../styles/servicos.css";
+import "../styles/portfolio.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const { locale } = useRouter(); 
