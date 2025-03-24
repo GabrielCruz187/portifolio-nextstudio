@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { ChevronUp, ChevronDown } from "lucide-react";
-import "../styles/contato.css";
+
 
 export default function Contato() {
     const [formData, setFormData] = useState({
