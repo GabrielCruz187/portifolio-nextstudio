@@ -20,6 +20,11 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <html lang={locale || 'pt-BR'} /> 
+        <link rel="icon" href="/logo2.png" />
+          {/* Caso você tenha outras versões de favicon */}
+          <link rel="icon" type="image/png" href="/logo2.png" />
+          <meta name="description" content="NextCode | Studios" />
+          <title>NextCode | Studios</title> {/* Defina o título do seu site */}
       </Head>
       <Layout>
         <Component {...pageProps} /> 

@@ -14,7 +14,7 @@ const site = [
     {
         titulo: "Site Institucional Next Code",
         descricao: "Site institucional para a empresa NextCode Studios.",
-        imagem: "/NextCode.png",
+        imagem: "/Nextcode.png",
         link: "https://esquadrias.com",
     },
 ];
