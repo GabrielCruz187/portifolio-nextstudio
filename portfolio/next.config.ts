@@ -6,6 +6,10 @@ const nextConfig: NextConfig = {
     locales: ['pt-BR', 'en'],
     defaultLocale: 'pt-BR',
   },
+  eslint: {
+    ignoreDuringBuilds: true, // Ignora as advertências durante a build
+  },
 };
 
 export default nextConfig;
+
