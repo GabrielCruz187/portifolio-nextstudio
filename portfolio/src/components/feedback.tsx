@@ -13,9 +13,9 @@ export default function Feedback() {
                     <p>Alã Automóveis, Não-me-Toque</p>
                 </div>
                 <div className="Depoimento">
-                    <p>"Profissionais excelentes! Desenvolveram nosso site <br />
+                    <p>&quot;Profissionais excelentes! Desenvolveram nosso site <br />
                         exatamente como queríamos, com um design moderno e fácil de usar. <br />
-                        O suporte também foi incrível. Recomendo!"</p>
+                        O suporte também foi incrível. Recomendo!&quot;</p>
                 </div>
             </div>
         </div>
