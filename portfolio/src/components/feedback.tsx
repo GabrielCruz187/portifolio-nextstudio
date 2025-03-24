@@ -8,7 +8,7 @@ export default function Feedback() {
             </div>
             <div className="ContainerFeedback">
                 <div className="TituloContainer">
-                    <img src="Eduardo.jpg" alt="Foto Do Cliente" />
+                    <img src="ala.jpg" alt="Foto Do Cliente" />
                     <h3>Alã Menegazzo</h3>
                     <p>Alã Automóveis, Não-me-Toque</p>
                 </div>

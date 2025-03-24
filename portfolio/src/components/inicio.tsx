@@ -1,4 +1,4 @@
-import { Link as ScrollLink } from "react-scroll"; // Importa o ScrollLink do react-scroll
+import { Link as ScrollLink } from "react-scroll";
 import "../styles/inicio.css";
 
 export default function Inicio() {
@@ -21,7 +21,7 @@ export default function Inicio() {
                 duration={500}
                 offset={-60}
                 >
-                <button className="botao-servicos">Nossos serviços</button>
+                <button className="BotaoInicio">Nossos serviços</button>
                 </ScrollLink>
             </div>
             <div className="iphone-inicio">

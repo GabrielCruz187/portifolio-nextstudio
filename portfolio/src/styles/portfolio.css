@@ -14,7 +14,7 @@
     margin-bottom: 3rem;
 }
 
-.Container {
+.ContainerPortfolio {
     display: flex;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     gap: 20px;
@@ -60,4 +60,56 @@
 
 .projeto-card:hover .projeto-info {
     opacity: 1;
+}
+
+@media (max-width: 835px) {
+    .ContainerPortfolio {
+        display: block;
+        grid-template-columns: none;
+        justify-content: center;
+        max-width: 700px;
+    }
+}
+
+@media (max-width: 510px) {
+    .TituloPortfolio {
+        font-size: 30px;
+        margin-bottom: 1rem;
+    }
+
+    .TextoPortfolio {
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 2rem;
+    }
+
+    .TituloContainer p {
+        margin-bottom: 1rem;
+    }
+
+    .projeto-imagem {
+        width: 100%;
+        height: 80%;
+        transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+    }
+
+    .card-container {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        margin-bottom: 2rem;
+    }
+
+    .projeto-info {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: black;
+        color: white;
+        padding: 20px;
+        opacity: 1;
+        transition: opacity 0.3s ease-in-out;
+    }
 }

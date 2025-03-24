@@ -24,7 +24,7 @@ export default function Header() {
         }, 500);
       });
     }
-    setIsMenuOpen(false);  // Fecha o menu ao clicar no item
+    setIsMenuOpen(false);
   };
 
   return (
@@ -33,12 +33,14 @@ export default function Header() {
         <img src="/logo.png" alt="Minha Software House" className="logo-img" />
       </Link>
 
-      <div className="menu-icon" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+      <div
+        className={`menu-icon ${isMenuOpen ? "open" : ""}`}
+        onClick={() => setIsMenuOpen(!isMenuOpen)}
+      >
         <div className="menu-line"></div>
         <div className="menu-line"></div>
         <div className="menu-line"></div>
       </div>
-
       <nav className={`nav ${isMenuOpen ? "open" : ""}`}>
         <ul className="nav-links">
           <li>
@@ -77,13 +79,23 @@ export default function Header() {
               Serviços
             </ScrollLink>
           </li>
-          <li>
-            <Link href="/contato">
-              <button className="contato" onClick={() => setIsMenuOpen(false)}>Entre em Contato</button>
-            </Link>
-          </li>
         </ul>
+        <div className="contatoMenu">
+          <Link href="/contato">
+            <button
+              className="contato"
+              onClick={() => setIsMenuOpen(false)} 
+            >
+              Entre em Contato
+            </button>
+          </Link>
+        </div>
       </nav>
+      <div className="ContatoHeader">
+        <Link href="/contato">
+            <button className="contato">Entre em Contato</button>
+        </Link>
+        </div>
     </header>
   );
 }

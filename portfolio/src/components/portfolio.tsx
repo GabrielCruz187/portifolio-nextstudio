@@ -5,7 +5,7 @@ const catalogo = [
         titulo: "Catálogo de Carros",
         descricao: "Sistema responsivo para loja de carros com painel administrativo.",
         imagem: "/LojaDeCarros.png",
-        link: "https://catalogo-carros.com",
+        link: "https://www.ala-automoveis.com/",
     },
 ];
 
@@ -13,7 +13,7 @@ const site = [
     {
         titulo: "Site Institucional Next Code",
         descricao: "Site institucional para a empresa NextCode Studios.",
-        imagem: "/Nextcode.png",
+        imagem: "/NextCode.png",
         link: "https://esquadrias.com",
     },
 ];
@@ -29,7 +29,7 @@ export default function Portfolio() {
                 </p>
             </div>
 
-            <div className="Container">
+            <div className="ContainerPortfolio">
                 <div className="Catalogo">
                     {catalogo.map((projeto, index) => (
                         <a 

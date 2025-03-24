@@ -153,3 +153,129 @@
     color: white;
     cursor: pointer;
 }
+
+.BotaoContato {
+    background-color: #094D29;      
+    color: white;                   
+    padding: 15px 35px;              
+    border: none;                   
+    border-radius: 5px;           
+    font-size: 16px;            
+    cursor: pointer;         
+    transition: background-color 0.3s;
+    white-space: nowrap;
+}
+
+.BotaoContato:hover {
+    background-color: #083F22;
+}
+
+@media (max-width: 1280px) {
+    .TituloContato {
+        margin-left: 5.5rem;
+    }
+
+    .FormularioContato {
+        text-align: center;
+        width: 600px;
+        height: 760px;
+        margin-right: 5rem;
+    }
+
+    .Chamada, .Email, .Instagram, .Linkedin {
+        margin-left: 5.5rem;
+    }
+}
+
+@media (max-width: 1080px) {
+    .Contato {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .TituloContato {
+        text-align: center;
+        margin-left: 0rem;  
+    }
+
+    .FormularioContato {
+        text-align: center;
+        width: 90%; 
+        margin: 2rem auto;
+        height: auto;
+    }
+
+    .ContatoInfo, .RedesSociais {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .ContatoInfo, .RedesSociais {
+        flex-direction: row;
+    }
+
+    .Chamada, .Email, .Instagram, .Linkedin {
+        margin-left: 2rem;
+    }
+}
+
+@media (max-width: 510px) {
+    .TituloContato {
+        font-size: 30px;
+        margin-bottom: 3rem;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .ContatoInfo, .RedesSociais {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 40px;
+    }
+
+    .Chamada, .Email, .Instagram, .Linkedin {
+        margin-left: 0rem;
+        font-size: 18px;
+    }
+
+    .FormularioContato {
+        margin-top: 0rem;
+    }
+
+    .TituloForm {
+        color: #6B9872;
+        font-size: 30px;
+        margin-bottom: 2rem;
+    }
+
+    .CampoFormulario input, .CampoFormulario textarea {
+        width: 100%;
+        padding: 0.8rem;
+        font-size: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 0.5rem;
+    }
+    
+    .CampoFormulario textarea {
+        min-height: 150px;
+    }
+    
+    .FormularioContato .CampoFormulario:nth-child(1),
+    .FormularioContato .CampoFormulario:nth-child(2) {
+        width: calc(100% - 1rem);
+    }
+    
+    .FormularioContato .CampoFormulario:nth-child(3),
+    .FormularioContato .CampoFormulario:nth-child(4) {
+        width: calc(100% - 1rem);
+    }
+    
+    .FormularioContato .CampoFormulario:nth-child(5),
+    .FormularioContato .CampoFormulario:nth-child(6) {
+        width: calc(100% - 1rem);
+    }
+}

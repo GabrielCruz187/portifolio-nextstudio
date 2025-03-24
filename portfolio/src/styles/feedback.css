@@ -53,3 +53,39 @@
     font-size: 20px;
     margin-bottom: 1rem;
 }
+
+@media (max-width: 510px) {
+    .TituloFeedback {
+        font-size: 30px;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .ContainerFeedback {
+        width: 350px;
+        height: 350px;
+    }
+
+    .TituloContainer {
+        flex-direction: column;
+    }
+
+    .TituloContainer img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 2rem;
+        margin-right: 0rem;
+    }
+
+    .TituloContainer h3 {
+        margin-left: 0rem;
+        font-size: 22px;
+    }
+
+    .Depoimento p {
+        font-size: 18px;
+        margin-bottom: 1rem;
+    }
+}

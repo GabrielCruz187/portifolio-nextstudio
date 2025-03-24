@@ -164,7 +164,7 @@ export default function Contato() {
                                 placeholder="Digite a sua mensagem para nós"
                             />
                         </div>
-                        <button type="submit">Enviar</button>
+                        <button type="submit" className="BotaoContato">Enviar</button>
                     </form>
                 </div>
             </div>
