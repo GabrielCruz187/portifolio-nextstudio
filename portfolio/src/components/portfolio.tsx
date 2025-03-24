@@ -1,4 +1,5 @@
-import "../styles/portfolio.css";
+import React from 'react';
+
 
 const catalogo = [
     {
