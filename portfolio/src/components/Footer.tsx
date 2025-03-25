@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { Link as ScrollLink } from "react-scroll";
-import '../styles/footer.css';
+
 
 export default function Footer() {
 const router = useRouter();

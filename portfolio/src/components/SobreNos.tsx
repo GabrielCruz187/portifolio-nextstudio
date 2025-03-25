@@ -1,4 +1,4 @@
-import "../styles/SobreNos.css"
+import React from 'react';
 
 export default function SobreNos() {
     return (
