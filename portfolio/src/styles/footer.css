@@ -138,27 +138,3 @@
     }
 }
 
-@keyframes bounce {
-    0% {
-        transform: rotate(0deg); /* Inicia sem rotação */
-    }
-    25% {
-        transform: rotate(10deg); /* Gira um pouco para a direita */
-    }
-    50% {
-        transform: rotate(-10deg); /* Gira para a esquerda */
-    }
-    75% {
-        transform: rotate(5deg); /* Gira um pouco para a direita novamente */
-    }
-    100% {
-        transform: rotate(0deg); /* Volta para a posição original */
-    }
-}
-
-.iphone {
-    width: 250px;
-    height: auto; 
-    margin-right: 20px;
-    animation: bounce 2s ease-in-out infinite; /* Aplica a animação de shake */
-}
