@@ -9,7 +9,9 @@
     font-size: 54px;
     margin-top: 4rem;
     margin-bottom: 5rem;
+    
 }
+
 
 .texto-inicio {
     color: white;
@@ -20,6 +22,7 @@
 .iphone-inicio img {
     width: 450px;
     height: auto;
+    animation: bounce 2s ease-in-out infinite;
 }
 
 .BotaoInicio {
@@ -137,3 +140,165 @@
         margin-left: 0rem;
     }
 }
+
+.inicio {
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+}
+
+.titulo-inicio {
+    color: #6B9872;
+    font-size: 54px;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+.texto-inicio {
+    color: white;
+    font-size: 34px;
+    margin-bottom: 3rem;
+}
+
+.iphone-inicio img {
+    width: 450px;
+    height: auto;
+    animation: bounce 2s ease-in-out infinite;
+}
+
+.BotaoInicio {
+    background-color: #094D29;
+    color: white;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    white-space: nowrap;
+}
+
+@media (max-width: 1540px) {
+    .inicio {
+        margin-left: 4rem;
+        gap: 150px;
+    }
+
+    .titulo-inicio {
+        margin-bottom: 5rem;
+    }
+
+    .iphone-inicio img {
+        width: 400px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .titulo-inicio {
+        margin-left: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .texto-inicio {
+        margin-left: 1.5rem;
+    }
+
+    .BotaoInicio {
+        margin-left: 1.5rem;
+    }
+}
+
+@media (max-width: 1158px) {
+    .titulo-inicio {
+        font-size: 44px;
+    }
+
+    .texto-inicio {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 835px) {
+    .inicio {
+        gap: 0px;
+        margin-left: 20px;
+    }
+
+    .titulo-inicio {
+        font-size: 34px;
+    }
+
+    .texto-inicio {
+        color: white;
+        font-size: 25px;
+        margin-bottom: 3rem;
+    }
+
+    .iphone-inicio img {
+        width: 350px;
+    }
+
+    .BotaoInicio {
+        display: flex;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 510px) {
+    .inicio {
+        display: flex;
+        text-align: center;
+        margin-right: 0rem;
+        margin-left: 0rem;
+    }
+
+    .conteudo-inicio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .titulo-inicio {
+        margin-top: 2rem;
+        font-size: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .texto-inicio {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+
+    .iphone-inicio img {
+        display: none;
+        width: 200px;
+    }
+
+    .BotaoInicio {
+        margin-left: 0rem;
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-10px); /* Sobe um pouco */
+    }
+    50% {
+        transform: translateY(0); /* Desce de volta */
+    }
+    75% {
+        transform: translateY(-5px); /* Sobe um pouco menos */
+    }
+    100% {
+        transform: translateY(0); /* Fica no lugar */
+    }
+}
+
+
+

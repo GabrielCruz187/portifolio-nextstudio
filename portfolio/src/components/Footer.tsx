@@ -1,7 +1,8 @@
+
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { Link as ScrollLink } from "react-scroll";
-
+import '../styles/footer.css';
 
 export default function Footer() {
 const router = useRouter();
@@ -87,8 +88,8 @@ return (
         </nav>
 
         <div className="redesFooter">
-            <img src="instagram.png" alt="Logo do Instagram" className="redes" />
-            <img src="linkedin.png" alt="Logo do LinkedIn" className="redes" />
+            <a href="https://www.instagram.com/nextcode_studios/" target="_blank" rel="noopener noreferrer">
+            <img src="/instagram.png" alt="Instagram" className="redes" /> </a>
         </div>
     </div>
 

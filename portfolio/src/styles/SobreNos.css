@@ -33,16 +33,16 @@
     .TituloSobreNos {
         margin-left: 6rem;
     }
-    
+
     .TextoSobreNos {
         margin-left: 6rem;
     }
-    
+
     .macbook img {
         width: 700px;
         margin-top: 2rem;
     }
-    
+
     .RedesSobreNos {
         margin-left: 5rem;
     }
@@ -54,15 +54,15 @@
         display: flex;
         justify-content: center;
     }
-    
+
     .TituloSobreNos {
         margin-left: 6rem;
     }
-    
+
     .TextoSobreNos {
         margin-left: 6rem;
     }
-    
+
     .macbook img {
         margin-top: 7rem;
         width: 700px;
@@ -78,15 +78,15 @@
         display: flex;
         justify-content: center;
     }
-    
+
     .TituloSobreNos {
         margin-left: 2rem;
     }
-    
+
     .TextoSobreNos {
         margin-left: 2rem;
     }
-    
+
     .macbook img {
         margin-top: 14rem;
         width: 400px;
@@ -103,12 +103,12 @@
     .SobreNos {
         text-align: center;
     }
-    
+
     .TituloSobreNos {
-        margin-left: 20px;
+        margin-left: 0px;
         font-size: 30px;
     }
-    
+
     .TextoSobreNos {
         margin-left: 0rem;
         font-size: 20px;
@@ -116,7 +116,7 @@
         margin-left: 15px;
         margin-right: 15px;
     }
-    
+
     .macbook img {
         display: none;
     }

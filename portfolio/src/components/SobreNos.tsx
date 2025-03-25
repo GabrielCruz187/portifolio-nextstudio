@@ -1,6 +1,4 @@
-import React from 'react';
-
-
+import "../styles/SobreNos.css"
 
 export default function SobreNos() {
     return (
@@ -18,12 +16,8 @@ export default function SobreNos() {
                     Entre em contato e transforme sua ideia em realidade!
                 </p>
                     <div className="RedesSobreNos">
-                        <a href="https://www.instagram.com/eduardo_menegazzo_/" target="_blank" rel="noopener noreferrer">
-                            <img src="/instagram.png" alt="Instagram" className="redes" />
-                        </a>
-                        <a href="https://www.linkedin.com/in/eduardo-menegazzo-riboli-16265630a/" target="_blank" rel="noopener noreferrer">
-                            <img src="/linkedin.png" alt="LinkedIn" className="redes" />
-                        </a>
+                        <a href="https://www.instagram.com/nextcode_studios/</div>" target="_blank" rel="noopener noreferrer">
+                        <img src="/instagram.png" alt="Instagram" className="redes" /> </a>
                     </div>
             </div>
             <div className="macbook">

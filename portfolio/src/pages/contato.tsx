@@ -41,7 +41,7 @@ export default function Contato() {
                     <p className="TextoContato">nextcodestudios@gmail.com</p>
                 </div>
                 <div className="Instagram">
-                    <a href="https://www.instagram.com/eduardo_menegazzo_/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/nextcode_studios/" target="_blank" rel="noopener noreferrer">
                         <img src="/instagram.png" alt="Instagram" className="IconeContato" />
                     </a>
                     <p className="TextoContato">NextCode Studios</p>
