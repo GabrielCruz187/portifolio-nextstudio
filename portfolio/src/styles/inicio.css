@@ -104,6 +104,8 @@
     .inicio {
         display: flex;
         text-align: center;
+        margin-right: 0rem;
+        margin-left: 0rem;
     }
 
     .conteudo-inicio {
